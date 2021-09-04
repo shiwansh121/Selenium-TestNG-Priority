@@ -12,7 +12,7 @@ public class Priority_In_testNG {
 	 @Test (priority=1)
 		public void test() {
 			
-			System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lenovo\\Desktop\\selenium\\chromedriver_win32\\chromedriver.exe");
 			driver = (WebDriver) new ChromeDriver();
 			System.out.println("Welcome  to Google...");
 			System.out.println("Priority 1");
